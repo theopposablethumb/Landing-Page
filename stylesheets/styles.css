@@ -1,0 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,900);
+
+body {background: #1abc9c; font-family: 'Source Sans Pro', sans-serif; font-size: 16px; color: #f7f7f7;}
+
+section {padding: 80px 80px 0 80px;}
+.content {float: left; width: 66%; margin: 0 0 0 2em;}
+
+h1 {font-size: 4em; font-weight: 200; line-height: 1.2em; margin: 0.8em 0; }
+p {font-size: 1.2em; font-weight: 300; line-height: 1.4em; margin: 1.4em 0;}
+
+form {margin: 3.2em 0;}
+input {width: 300px; background: #f7f7f7; color: #333; font-size: 1em; padding: 0.5em; border: 1px solid #16a085; border-radius: 3px;}
+input:focus, textarea:focus {border: 1px solid #21F2C9; outline: none;}
+input[type=submit] {width: auto; background: #f1c40f; color: #9E2F23; border: 1px solid #f39c12; padding: 0.5em 16px; margin: 0 0 0 0.5em;}
+input[type=submit]:hover {background: #f39c12; border: 1px solid #f39c12;}
+
+div.logo { float: left; width: 150px; height: 150px; border: 50px solid #16a085; border-radius: 150px; position: relative;}
+.logo span { position: absolute; width: 150px; height: 150px; text-align: center; font-size: 9em; font-weight: 900; line-height: 1em; text-align: center; color: #16a085;}
